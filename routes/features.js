@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-/* GET home page. */
+/* GET features page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'DateAct' });
+  res.render('features', { title: 'Choose features' });
 });
 
 module.exports = router;
